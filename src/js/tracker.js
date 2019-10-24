@@ -1595,7 +1595,6 @@
 				helpers.addEventListener(documentAlias, 'mouseup', activityHandler);
 				helpers.addEventListener(documentAlias, 'mousedown', activityHandler);
 				helpers.addEventListener(documentAlias, 'mousemove', activityHandler);
-				helpers.addEventListener(windowAlias, 'scroll', scrollHandler); // Will updateMaxScrolls() for us
 				helpers.addEventListener(documentAlias, 'keypress', activityHandler);
 				helpers.addEventListener(documentAlias, 'keydown', activityHandler);
 				helpers.addEventListener(documentAlias, 'keyup', activityHandler);
