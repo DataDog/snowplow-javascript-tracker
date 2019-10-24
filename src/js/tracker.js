@@ -578,7 +578,7 @@
 			var iebody = (documentAlias.compatMode && documentAlias.compatMode !== "BackCompat") ?
 				documentAlias.documentElement :
 				documentAlias.body;
-			return [iebody.scrollLeft || windowAlias.pageXOffset, iebody.scrollTop || windowAlias.pageYOffset];
+			return [0, 0];
 		}
 
 		/*
